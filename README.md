@@ -1,2 +1,2 @@
 # rag-daisies
-ask RAG: should I or should I not apply to this job
+LLM application with RAG: to apply or not to apply to a job
