@@ -1,5 +1,5 @@
 .DS_Store
-.ipynb_checkpoints
+.ipynb_checkpoints/
 **/.env
 data_jd/
 data_tiara/
