@@ -1,5 +1,6 @@
 .DS_Store
-daisies/.env
+.ipynb_checkpoints
+**/.env
 data_jd/
 data_tiara/
 
