@@ -26,6 +26,7 @@ init_observability()
 
 environment = os.getenv("ENVIRONMENT", "dev")  # Default to 'development' if not set
 logger = logging.getLogger("uvicorn")
+logger.setLevel(logging.INFO)
 
 if environment == "dev":
     logger.warning("Running in development mode - allowing CORS for all origins")

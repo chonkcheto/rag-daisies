@@ -42,7 +42,7 @@ try:
         }
 
 except ImportError:
-    logger.debug(
+    logger.critical(
         "LlamaCloud is not configured. Skipping adding /config/llamacloud route."
     )
     pass
